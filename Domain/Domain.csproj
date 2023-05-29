@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Auth\" />
+    <None Remove="Enums\" />
+    <None Remove="Pagarme\" />
+    <None Remove="Pix\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Auth\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Pagarme\" />
+    <Folder Include="Pix\" />
+  </ItemGroup>
+</Project>

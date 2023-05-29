@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayFlow", "PayFlow\PayFlow.csproj", "{4E2BB371-9907-4B07-A733-CA5342E13866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0BA6C584-5632-4DA4-85AC-46B7A6F96B85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{95D5F6B9-AE96-482B-9201-1D4653CC054B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2BB371-9907-4B07-A733-CA5342E13866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2BB371-9907-4B07-A733-CA5342E13866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2BB371-9907-4B07-A733-CA5342E13866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2BB371-9907-4B07-A733-CA5342E13866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA6C584-5632-4DA4-85AC-46B7A6F96B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA6C584-5632-4DA4-85AC-46B7A6F96B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA6C584-5632-4DA4-85AC-46B7A6F96B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA6C584-5632-4DA4-85AC-46B7A6F96B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D5F6B9-AE96-482B-9201-1D4653CC054B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D5F6B9-AE96-482B-9201-1D4653CC054B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D5F6B9-AE96-482B-9201-1D4653CC054B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D5F6B9-AE96-482B-9201-1D4653CC054B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C840F65E-6562-40B9-A5E7-1AB89660B6EC}
+	EndGlobalSection
+EndGlobal
